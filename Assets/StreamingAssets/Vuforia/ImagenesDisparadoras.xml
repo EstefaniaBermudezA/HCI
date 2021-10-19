@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Imagen" size="6.000000 5.890909"/>
+        <ImageTarget name="Cubito.Front" size="2.200000 2.208494"/>
+        <ImageTarget name="Cubito.Top" size="2.200000 2.208494"/>
+        <ImageTarget name="Cubito.Bottom" size="2.200000 2.208494"/>
+        <ImageTarget name="Cubito.Left" size="2.200000 2.208494"/>
+        <ImageTarget name="Cubito.Right" size="2.200000 2.208494"/>
+        <ImageTarget name="Cubito.Back" size="2.200000 2.208494"/>
+        <MultiTarget name="Cubito">
+            <Part name="Cubito.Left" translation="-1.100000023841858 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Cubito.Right" translation="1.100000023841858 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Cubito.Front" translation="0 0 1.100000023841858" rotation="AD: 1 0 0 0"/>
+            <Part name="Cubito.Back" translation="0 0 -1.100000023841858" rotation="AD: 0 1 0 180"/>
+            <Part name="Cubito.Top" translation="0 1.100000023841858 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Cubito.Bottom" translation="0 -1.100000023841858 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
